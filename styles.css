@@ -22,7 +22,7 @@ body {
     font-weight: bold;
 }
 
- a, .hero_subtitle, .call_sub {
+ a, .hero_subtitle, .call_sub, .footer {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -167,4 +167,12 @@ body {
    border-style: solid;
    border-color: white;
    border-width: 2px;
+ }
+
+ .footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
  }
