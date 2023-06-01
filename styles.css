@@ -15,14 +15,14 @@ body {
     padding: 1em 13em;
 }
 
-.logo {
+.logo, .call_main{
     font-size: 24px;
     color: #F9FAF8;
     margin:0;
     font-weight: bold;
 }
 
- a, .hero_subtitle {
+ a, .hero_subtitle, .call_sub {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -149,4 +149,22 @@ body {
    font-size: 20px;
    display: flex;
    justify-content: right;
+ }
+
+ .call {
+   padding: 6em 13em;
+ }
+
+ .banner {
+   background-color: #3882F6;
+   display: flex;
+   padding: 3em 8em;
+   justify-content: space-between;
+   border-radius: 8px;
+ }
+
+.banner button {
+   border-style: solid;
+   border-color: white;
+   border-width: 2px;
  }
